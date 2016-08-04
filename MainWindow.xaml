@@ -1,0 +1,13 @@
+﻿<Window x:Class="NecroVisualizer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:m="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NecroVisualizer"
+        mc:Ignorable="d"
+        Title="GPS Map" Height="900" Width="1600">
+    <Grid>
+        <m:Map CredentialsProvider="9VhuMorklHgJvjuZV1CQ~jL7ZiQoVor2Za4J_9t4jRw~AuquFnVTatjNo6vPjFfxiyVQJGWi9-aFGd-Ka2P5IGyFhtdYfD2h2Ru0mSq-fxQz" x:Name="map"/>
+    </Grid>
+</Window>
